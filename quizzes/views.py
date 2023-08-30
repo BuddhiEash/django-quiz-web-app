@@ -2,5 +2,5 @@ from django.shortcuts import render
 
 from django.http import HttpResponse
 
-def quizz_view(request):
+def quizzes(request):
     return HttpResponse("Hello quizz world!")
